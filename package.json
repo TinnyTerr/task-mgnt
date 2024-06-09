@@ -1,0 +1,27 @@
+{
+  "name": "task-mgmt",
+  "version": "0.1.0",
+  "description": "A task management api for your needs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx eslint ./src --fix; npx tsc",
+    "run": "npx eslint ./src --fix; npx tsc; node dist/index.js",
+    "lint": "npx eslint ./src ",
+    "lint-fix": "npx eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "tinnyterr",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "express": "^4.19.2",
+    "logging": "^3.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@types/node": "^20.12.12",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^8.0.0-alpha.10"
+  }
+}
